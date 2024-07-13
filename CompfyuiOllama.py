@@ -252,7 +252,7 @@ response:
 - context: {response["context"]}
 
 """)
-        return (response['response'],response['context'],)
+        return (response['response'],"",)
 
 NODE_CLASS_MAPPINGS = {
     "OllamaVision": OllamaVision,
